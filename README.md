@@ -43,13 +43,14 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Vet Clinic Database <a name="about-project"></a>
 
-> demonstrated the use of PostgreSQL SQL commands for tasks such as creating a database and table, inserting data into the table, and executing various queries with different parameters.
+> demonstrated the use of PostgreSQL commands for tasks such as creating a database and table, inserting data into the table, and executing various queries with different parameters.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,6 +73,7 @@ After you're finished please remove all the comments and instructions!
 
 - Vet clinic database
 - animals table
+- animals data
 - Querying data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -115,7 +117,7 @@ To run the project, execute the following command:
 
 ```
   1 create vet_clinic database
-  2 Run  Queries.sql
+  2 Run  schema.sql
   3 to insert data into the table run data.sql
   4 execute queries
 
