@@ -75,6 +75,7 @@ After you're finished please remove all the comments and instructions!
 - animals table
 - animals data
 - Querying data
+- aggregate functions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +150,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> to be Added related animal tables and queries
+> Will be updated animal table with additonal features
+> additional tabels will be added
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
