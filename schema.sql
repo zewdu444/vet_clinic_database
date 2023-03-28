@@ -1,5 +1,5 @@
 /* Database schema to keep the structure of entire database. */
-
+--project one---
 CREATE TABLE animals
 (
     id integer primary key NOT NULL,
@@ -9,3 +9,6 @@ CREATE TABLE animals
     neutered boolean,
     weight_kg decimal
 );
+
+-- project two--
+Alter table animals add column species text;
