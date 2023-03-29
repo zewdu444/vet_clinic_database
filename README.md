@@ -75,13 +75,14 @@ After you're finished please remove all the comments and instructions!
 - species table
 - relations between tables with foreign keys
 - join queries
+- visits, specializations, and vets tables
+- many-to-many relationships
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 ### Prerequisites
 
@@ -108,7 +109,6 @@ To run the project, execute the following command:
 
 ```
 
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -125,7 +125,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> will be added "join table" for visits
+> Performance will be checked for the queries and the database will be optimized.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
