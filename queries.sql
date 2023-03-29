@@ -42,32 +42,32 @@ group by species;
 
 
 ---project three ----
-select  owners.full_name as owners_full_name , animals.name as animal_name from animals 
+select  * from animals 
 inner join owners on animals.owner_id=owners.id
 inner join species on animals.species_id=species.id
 where owners.full_name ='Melody Pond';
 
-select  animals.name as animal_name, species.name as species_name  from animals 
+select  *  from animals 
 inner join owners on animals.owner_id=owners.id
 inner join species on animals.species_id=species.id
 where species.name ='Pokemon';
 
 
-select  owners.full_name as owners_full_name , animals.name as animal_name from animals 
-full join owners on animals.owner_id=owners.id;
+select  * from animals 
+LEFT join owners on animals.owner_id=owners.id;
 
 select species.name as species_name, count(animals.name) as number_of_animals from animals 
 inner join species on animals.species_id=species.id
 group by species.name;
 
-select  owners.full_name as owners_full_name , animals.name as animal_name, species.name as species_name from animals 
+select  *  from animals 
 inner join owners on animals.owner_id=owners.id
 inner join species on animals.species_id=species.id
 where owners.full_name ='Jennifer Orwell' and species.name='Digimon';
 
-select  owners.full_name as owners_full_name , animals.name as animal_name, animals.escape_attempts from animals 
+select  * from animals 
 inner join owners on animals.owner_id=owners.id
-where owners.full_name ='Dean Winchester'and animals.escape_attempts =0;
+where owners.full_name ='Dean Winchester'and animals.escape_attempts=0;
 
 select owners.full_name as owners_full_name, count(animals.name) as number_of_animals from animals 
 full join owners on animals.owner_id=owners.id

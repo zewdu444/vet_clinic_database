@@ -47,7 +47,8 @@ SET species_id =
     WHEN name LIKE '%mon' THEN (SELECT id FROM species WHERE name = 'Digimon')
     ELSE (SELECT id FROM species WHERE name = 'Pokemon')
   END;
-  UPDATE animals
+
+UPDATE animals
 SET owner_id = owners.id
 FROM owners
 WHERE animals.name = 'Agumon' AND owners.full_name = 'Sam Smith';
