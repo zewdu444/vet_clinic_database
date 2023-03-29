@@ -32,10 +32,7 @@ After you're finished please remove all the comments and instructions!
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -85,12 +82,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
-```sh
-  git clone https://github.com/zewdu444/vet_clinic_database.git
-  cd vet_clinic_database
-```
 
 ### Prerequisites
 
@@ -100,10 +91,9 @@ In order to run this project you need installed postgresql and pgAdmin.
 
 Clone this repository to your local machine and run sql commands in the terminal or pgAdmin.
 
-### Install
-
 ```sh
-  locate to your postgresql folder
+  git clone https://github.com/zewdu444/vet_clinic_database.git
+  cd vet_clinic_database
 ```
 
 ### Usage
@@ -118,15 +108,6 @@ To run the project, execute the following command:
 
 ```
 
-### Run tests
-
-> no test for this project
-
-### Deployment
-
-> no deployment for this project
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
