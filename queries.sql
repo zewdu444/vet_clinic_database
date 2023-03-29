@@ -54,7 +54,7 @@ where species.name ='Pokemon';
 
 
 select  * from animals 
-LEFT join owners on animals.owner_id=owners.id;
+RIGHT join owners on animals.owner_id=owners.id;
 
 select species.name as species_name, count(animals.name) as number_of_animals from animals 
 inner join species on animals.species_id=species.id
