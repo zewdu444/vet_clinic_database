@@ -74,6 +74,10 @@ After you're finished please remove all the comments and instructions!
 - animals data
 - Querying data
 - aggregate functions
+- owners table
+- species table
+- relations between tables with foreign keys
+- join queries
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +120,7 @@ To run the project, execute the following command:
 
 ### Run tests
 
-> no test for this project,
+> no test for this project
 
 ### Deployment
 
@@ -140,8 +144,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Will be updated animal table with additonal features
-> additional tabels will be added
+> will be added "join table" for visits
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
