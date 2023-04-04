@@ -26,6 +26,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [:camera: project screenshot](#screen-shoot)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -46,6 +47,10 @@ After you're finished please remove all the comments and instructions!
 # 📖 Vet Clinic Database <a name="about-project"></a>
 
 > demonstrated the use of PostgreSQL commands for tasks such as creating a database and table, inserting data into the table, and executing various queries with different parameters.
+
+## Project Screenshots
+
+![screen shot](er_diagram.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
